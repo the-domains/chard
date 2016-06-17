@@ -1,14 +1,26 @@
 layout_spectrum: 1
-typography_spectrum: 0.09696459
+name: Chard
+collections:
+  - index:
+      navigable: true
+      path: /
+      number: 15
+      paginate: true
+    feed:
+      format: rss
+      path: /rss.xml
+      number: 10
+    permalink:
+      path: '/:title/'
 color:
-  lightness: 0.4629005
   brandStrength: 0.1881505
   saturation: 0.4477234
-  rhythmicContrast: 0.8895447
   brandColors:
     - '#000000'
     - '#000B1F'
     - '#0D182A'
     - '#33343F'
     - '#415D79'
-name: Chard
+  lightness: 0.4629005
+  rhythmicContrast: 0.8895447
+typography_spectrum: 0.2959528
